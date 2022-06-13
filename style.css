@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+
+h1 {
+    font-family: 'Joan', serif;
+}
+
+body {
+
+    background-image: linear-gradient(to right,#03001e, #7303c0, #ec38bc, #fdeff9);
+}
+
+#timer {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+ul {
+    margin-top: 296px;
+    padding-left: 50px;
+}
+
+button {
+    width: 100px;
+    cursor: pointer;
+}
+
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+
+#button li {
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px
+}
